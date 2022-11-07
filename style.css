@@ -1,0 +1,30 @@
+body {
+    height: 100%;
+    background: rgb(109, 59, 59);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-content: center;
+
+}
+
+.wrapper {
+    width: 800px;
+    box-sizing: border-box;
+    align-content: center;
+    text-align: center;
+}
+
+button {
+    border-radius: 5px;
+    background: rgb(109, 59, 59);
+    border: solid 1px black;
+    font-size: 1.2em;
+    width: 180px;
+    padding: 18px 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+button:hover {
+    background: #b59b9b;
+}
